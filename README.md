@@ -1,13 +1,13 @@
 # Crazyflie 101 Tutorial
 This tutorial is inspired by the official Crazyflie website with some minor modifications. The aim of this tutorial is to provide a step-by-step guide on how to control a Crazyflie drone using Python code. The tutorial is designed to be followed sequentially, with each code building on the previous one and increasing in complexity.
 
-##Hardware Setup
+## Hardware Setup
 To follow along with this tutorial, you will need a Crazyflie 2.0 drone with a Flowdeck mounted to it, and a Crazyradio USB module connected to your PC. The Python code runs on your PC and communicates with the drone over radio through the Crazyradio 2.0.
 
-##Prerequisites
+## Prerequisites
 Before you start this tutorial, make sure you have Python 3.5 or higher installed on your system. You will also need to install the packages found in 'requirements.txt'.
 
-##Codes explanation
+## Codes explanation
 Here is a brief explanation of what each code does:
 
 Code 0 (0_simple_connect.py): This code establishes a connection between your PC and the Crazyflie drone. It is a basic check to make sure that your PC is able to communicate with the drone.
@@ -26,7 +26,7 @@ Code 6 (6_Motor_Control.py): This code teaches the user how to control the drone
 
 Code 7 (7_Motor_Stop.py): This code is only meant to be run after Code 6 to stop all the motors from running. Once Code 6 is stopped, some motors might still be running, so this code ensures that all the motors are stopped completely.
 
-##Running the Codes
+## Running the Codes
 The tutorial consists of 8 Python codes that should be run sequentially. The codes are named as follows:
 
 0_simple_connect.py
@@ -40,8 +40,8 @@ The tutorial consists of 8 Python codes that should be run sequentially. The cod
 
 Each code in this repository builds on the previous code and adds new functionality. It is recommended that you follow the tutorial in sequence and run each code to see how the drone behavior changes with the added functionality.
 
-#Acknowledgments
+## Acknowledgments
 This tutorial was inspired by the official Crazyflie website's tutorials, with some minor modifications made to suit the needs of this tutorial. For a full list of tutorials, visit the [official Crazyflie website](https://www.bitcraze.io/documentation/tutorials/).
 
-##Conclusion
+## Conclusion
 This tutorial is designed to help beginners get started with controlling a Crazyflie drone using Python code. Following the tutorial sequentially and running each code should give you a good understanding of how the drone responds to different commands and how to build on the previous code to add new functionality. Good luck and happy coding!
