@@ -21,23 +21,6 @@ DEFAULT_HEIGHT = 0.5
 deck_attached_event = Event() # create an event to detect if the flow deck is attached
 logging.basicConfig(level=logging.ERROR) # set logging level
 
-def move_linear_simple(scf):
-    with MotionCommander(scf, default_height=DEFAULT_HEIGHT) as mc:
-        time.sleep(1)
-        mc.forward(0.5)
-        time.sleep(1)
-        mc.turn_left(180)
-        time.sleep(1)
-        mc.forward(0.5)
-        time.sleep(1)
-        mc.turn_left(180)
-        time.sleep(1)
-
-def take_off_simple(scf):
-    with MotionCommander(scf, default_height=DEFAULT_HEIGHT) as mc:
-        time.sleep(3)
-        mc.stop()
-
 def param_deck_flow(_, value_str):
     value = int(value_str)
     print(value)
