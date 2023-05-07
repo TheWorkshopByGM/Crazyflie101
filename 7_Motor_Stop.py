@@ -1,3 +1,8 @@
+"""
+Crazyflie 101 Tutorial - 7_Motor_Stop.py
+Author: Guy Maalouf
+Date: May 12, 2023
+"""
 import logging
 import sys
 import time
