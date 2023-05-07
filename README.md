@@ -30,12 +30,19 @@ Code 7 (7_Motor_Stop.py): This code is only meant to be run after Code 6 to stop
 The tutorial consists of 8 Python codes that should be run sequentially. The codes are named as follows:
 
 0_simple_connect.py
+
 1_flow_deck_check.py
+
 2_take_off.py
+
 3_forward_then_backward.py
+
 4_ftbt_logging.py
+
 5_bouncing_box.py
+
 6_Motor_Control.py
+
 7_Motor_Stop.py
 
 Each code in this repository builds on the previous code and adds new functionality. It is recommended that you follow the tutorial in sequence and run each code to see how the drone behavior changes with the added functionality.
