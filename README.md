@@ -16,7 +16,7 @@ Code 1 (1_flow_deck_check.py): This code checks if the Flowdeck is connected to 
 
 Code 2 (2_take_off.py): This code makes the drone take off, hover for a few seconds, and then land. It is a basic code that demonstrates how to control the drone's altitude.
 
-Code 3 (3_ftbt.py): This code makes the drone take off, fly forward, turn 180 degrees, fly back, turn 180 degrees, and land. It demonstrates how to control the drone's pitch, roll, and yaw.
+Code 3 (3_forward_then_backward.py): This code makes the drone take off, fly forward, turn 180 degrees, fly back, turn 180 degrees, and land. It demonstrates how to control the drone's pitch, roll, and yaw.
 
 Code 4 (4_ftbt_logging.py): This code is similar to Code 3 but with the addition of logging the position estimates of the drone on the PC terminal. It demonstrates how to use the logging feature of the Crazyflie Python library.
 
@@ -32,7 +32,7 @@ The tutorial consists of 8 Python codes that should be run sequentially. The cod
 0_simple_connect.py
 1_flow_deck_check.py
 2_take_off.py
-3_ftbt.py
+3_forward_then_backward.py
 4_ftbt_logging.py
 5_bouncing_box.py
 6_Motor_Control.py
